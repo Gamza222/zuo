@@ -18,7 +18,7 @@ const Order : FC<OrderProps> = ({setState}) => {
 
     let tg = {
         token: "5725567041:AAGRSVQWgjq6u3dBGOC753HxHEj0srtUyF0", // Your bot's token that got from @BotFather
-        chat_id: "-606535238" // The user's(that you want to send a message) telegram chat id
+        chat_id: "-857842043" // The user's(that you want to send a message) telegram chat id
     }
 
     function sendMessage() {
@@ -47,7 +47,7 @@ const Order : FC<OrderProps> = ({setState}) => {
                 <input type="text" onChange={(e) => setCompany(e.target.value)} id="Компания" name="Компания" placeholder='Компания' required/>
                 <textarea onChange={(e) => setDescr(e.target.value)} id="Подробнее про Ваш запрос" name="Подробнее про Ваш запрос" placeholder='Подробнее про Ваш запрос' required/>
             </div>
-            <a className='button' onClick={sendMessage} href="https://t.me/teterin323">Отправить заявку</a>
+            <a className='button' onClick={sendMessage}>Отправить заявку</a>
             <p className="footer-container__copyright">上海市金山工业区广业路585号1幢328室 ， Room 328, 
         Building 1, No.585 Guangye Road, Jinshan Industrial Zone, 
         Shangha</p>

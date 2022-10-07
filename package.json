@@ -1,7 +1,7 @@
 {
-  "name": "proton-pay",
+  "name": "zuo",
   "version": "0.1.0",
-  "homepage": "https://protonpay.ru",
+  "homepage": "https://gamza222.github.io/zuo/",
   "private": true,
   "dependencies": {
     "@splitbee/web": "^0.3.0",
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

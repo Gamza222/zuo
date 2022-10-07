@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Description from './components/Description/Description';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -13,6 +13,9 @@ import Login from './components/LogIn/Login';
 splitbee.init();
 
 function App() {
+  useEffect(() => {
+    document.title = "zuo";
+  })
   const [state, setState] = useState<string>("");
   return (
     <>

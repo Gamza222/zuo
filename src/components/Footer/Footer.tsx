@@ -22,7 +22,7 @@ const Footer : FC<FooterProps> = ({state, setState}) => {
             <p>Сложные заказы на оборудование и электронику</p>
           </div>
         </div>
-        <a className="footer-container__tg">Наш телеграм канал →</a>
+        <a target="__blank" href="https://t.me/HaoDeliveryBot" className="footer-container__tg">Наш телеграм канал →</a>
         <p className="footer-container__copyright">上海市金山工业区广业路585号1幢328室 ， Room 328, 
         Building 1, No.585 Guangye Road, Jinshan Industrial Zone, 
         Shangha</p>

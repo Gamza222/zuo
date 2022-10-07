@@ -10,13 +10,22 @@ const Footer : FC<FooterProps> = ({state, setState}) => {
 
   return (
     <section className="footer-container container">
-        <div className="footer-container__rights">
-            <button onClick={()=> setState("FAQ")}>FAQ - Вопросы и ответы</button>
-            <button onClick={()=> setState("user-agreement")}>Пользовательское соглашение</button>
-            <button onClick={()=> setState("rights")}>Условия использования</button>
-            <button onClick={()=> setState("contacts")}>Контакты и поддержка</button>
+        <p className="footer-container__title">Преимущества</p>
+        <div className="footer-container__content">
+          <div className="footer-container__content__item1">
+            <p>Товары для Wildberies, Ozon, Amazon</p>
+          </div>
+          <div className="footer-container__content__item2">
+            <p>Подборка товаров по всему Китаю для Вас (байер)</p>
+          </div>
+          <div className="footer-container__content__item3">
+            <p>Сложные заказы на оборудование и электронику</p>
+          </div>
         </div>
-        <p className="footer-container__copyright">2022<br/>{`<3`}</p>
+        <a className="footer-container__tg">Наш телеграм канал →</a>
+        <p className="footer-container__copyright">上海市金山工业区广业路585号1幢328室 ， Room 328, 
+        Building 1, No.585 Guangye Road, Jinshan Industrial Zone, 
+        Shangha</p>
     </section>
   )
 }

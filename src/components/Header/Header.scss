@@ -1,6 +1,7 @@
 @import '../assets/variables.scss';
 
 .header-container {
+    padding-top: 40px !important;
     display: flex;
     flex-direction: column-reverse;
 
@@ -15,15 +16,24 @@
         flex-direction: column;
         row-gap: 33px;
 
+        @media screen and (max-width: 320px) {
+            row-gap: 10px;
+        }
+
         &__title {
             font-family: var(--font-title);
             font-size: var(--size-title);
+            color: var(--color-white);
         }
 
         &__subtitle {
             font-weight: var(--weight-subtitle);
             font-size: var(--size-subtitle);
             letter-spacing: 1px;
+
+            @media screen and (max-width: 320px) {
+                width: 170px;
+            }
         }
     }
 

@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 import "./Rules.scss"
 import arrow from "../assets/images/Rules/arrow.svg"
+import {BsArrowLeftShort} from "react-icons/bs"
 
 interface RulespProps {
   title: string
@@ -15,20 +16,13 @@ const Rules: FC<RulespProps> = ({setState, elements, text, state, title, contact
   return (
     <div className="rules-container container">
         <button className="arrow" onClick={() => setState("")}>
-          <img src={arrow} alt="arrow-pic" />
+          <BsArrowLeftShort  />
         </button>
         <div 
           className="rules-container__bg" 
-          style={
-            state === "FAQ" ? {background : "#80008B"}
-            : state === "user-agreement" ? {background : "#19A5A5"}
-            : state === "rights" ? {background : "#00C058"}
-            : state === "contacts" ? {background : "#AC6700"}
-            : {background : "#80008B"}
-            }
           />
         <div className="rules-container__head">
-          <h2>ProtonPay</h2>
+          <h2>ZUO</h2>
           <h3>{title}</h3>
         </div>
         {
@@ -59,6 +53,15 @@ const Rules: FC<RulespProps> = ({setState, elements, text, state, title, contact
                       </div>
           : ""
         }
+        <div className="rules-container__image">
+                    <button onClick={() => setState("order")}>Получить коммерческое предложение</button>
+                </div>
+        <div className="rules-container__footer">
+            <p>上海市金山工业区广业路585号1幢328室 ， Room 328, 
+            Building 1, No.585 Guangye Road, Jinshan Industrial Zone, 
+            Shangha</p>
+        </div>
+
     </div>
   )
 }

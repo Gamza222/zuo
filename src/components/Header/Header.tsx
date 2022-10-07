@@ -9,11 +9,8 @@ const Header : FC<HeaderProps> = ({setState}) => {
   return (
     <header className='header-container container'>
       <div className='header-container__text'>
-        <h1 className='header-container__text__title'>ProtonPay</h1>
-        <p className='header-container__text__subtitle'>Оплачивайте товары и сервисы по всему миру</p>
-      </div>
-      <div className="header-container__buttons">
-        <button onClick={() => setState("login")}>Вход</button>
+        <h1 className='header-container__text__title'>ZUO</h1>
+        <p className='header-container__text__subtitle'>Доставка грузов и товаров из Китая и ОАЭ</p>
       </div>
     </header>
   )

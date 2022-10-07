@@ -1,16 +1,17 @@
 @import "../assets/variables.scss";
 
 .makeorder-container {
-    margin-top: 55px;
+    margin-top: 35px;
     padding: 0 62px;
     display: flex;
     align-items: center;
     flex-direction: column;
 
+    @media screen and (max-width: 320px) {
+        margin-top: 15px;
+    }
+
     @media screen and (min-width: 850px) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
         align-items: center;
         justify-content: center;
         margin-top: 70px;
@@ -68,11 +69,26 @@
     &__content {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        width: 100%;
+
+        @media screen and (min-width: 1010px) {
+            flex-direction: row-reverse;
+            gap: 30px;
+        }
+        @media screen and (min-width: 1210px) {
+            flex-direction: row-reverse;
+            gap: 60px;
+        }
 
         &__text {
             font-size: var(--size-primary);
-            margin-bottom: 68px;
+            margin-bottom: 55px;
+            font-family: var(--font);
+
+            @media screen and (max-width: 320px) {
+                margin-bottom: 25px;
+              }
         }
 
         &__interaction {
@@ -93,8 +109,7 @@
             }
 
             &__img {
-                background: url(../assets/images/makeorder/bg.svg);
-                background: url("../assets/images/Order/bg.svg");
+                background: url("../assets/images/makeorder/Rectangle\ 1.svg");
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
@@ -106,9 +121,18 @@
                 height: fit-content;
                 width: 100%;
 
-                > p {
-                    white-space: nowrap;
+                > button {
                     font-size: var(--size-primary);
+                    background: transparent;
+                    font-family: var(--font-subtitle);
+                    color: white;
+                    text-align: start;
+                    padding: 30px 17px 30px 40px;
+                    cursor: pointer;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }

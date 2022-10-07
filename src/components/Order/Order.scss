@@ -2,27 +2,33 @@
 
 .order-container {
     display: flex;
+    padding-top: 50px !important;
     flex-direction: column;
     position: relative;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    min-height: 100vh;
+    padding-bottom: 30px !important;
 
     > h2 {
         font-family: var(--font-title);
         font-size: var(--size-title);
-        margin-top: 40px;
+        margin-top: 20px;
         margin-bottom: 33px;
+        color: var(--color-black);
     }
 
     &__text {
         display: flex;
         flex-direction: column;
-        margin-bottom: 33px;
+        margin-bottom: 43px;
 
         @media screen and (min-width: 1210px) {
             margin-bottom: 65px;
         }
 
         > h3 {
-            font-size: var(--size-subtitle);
+            font-size: var(--size-primary);
             font-weight: var(--weight-thin);
             margin-bottom: 23px;
 
@@ -33,6 +39,7 @@
 
         > p {
             font-size: var(--size-text);
+            font-family: var(--font);
 
             > a {
                 text-decoration: underline;
@@ -73,7 +80,7 @@
             display: flex;
             flex-direction: column;
             gap: 33px;
-            margin-bottom: 46px;
+            margin-bottom: 66px;
 
             @media screen and (min-width: 1210px) {
                 gap: 65px;
@@ -82,7 +89,14 @@
 
             > input {
                 font-size: var(--big-size);
-                color: var(--color-shadowed);
+                color: var(--color-black);
+                background-color: transparent;
+                border: none;
+                font-family: var(--font);
+            }
+            > textarea {
+                font-size: var(--big-size);
+                color: var(--color-black);
                 background-color: transparent;
                 border: none;
                 font-family: var(--font);

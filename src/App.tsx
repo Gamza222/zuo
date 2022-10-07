@@ -17,17 +17,16 @@ function App() {
   return (
     <>
       {
-        state === "FAQ" ? <Rules setState={setState} state={state} elements={text.faq.elements} title={text.faq.title} /> 
-        : state === "user-agreement" ? <Rules setState={setState} state={state} text={text.userAgreement.text} title={text.userAgreement.title} />
-        : state === "rights" ? <Rules setState={setState} state={state} text={text.rights.text} title={text.rights.title} />
-        : state === "contacts" ? <Rules setState={setState} state={state} contacts={text.contacts.elements} title={text.contacts.title} />
+        state === "Авиа (самое быстрое)" ? <Rules setState={setState} state={state} elements={text.avia.elements} title={text.avia.title} /> 
+        : state === "Прямое ЖД" ? <Rules setState={setState} state={state} elements={text["Прямое ЖД"].elements} title={text["Прямое ЖД"].title} /> 
+        : state === "Контейнеры" ? <Rules setState={setState} state={state} elements={text["Контейнеры"].elements} title={text["Контейнеры"].title} /> 
+        : state === "Автоперевозки" ?  <Rules setState={setState} state={state} elements={text["Автоперевозки"].elements} title={text["Автоперевозки"].title} /> 
         : state === "order" ? <Order setState={setState} />
-        : state === "login" ? <Login setState={setState}/>
         :
         <>
           <Header setState={setState}/>
           <MakeOrder setState={setState}/>
-          <Description />
+          <Description state={state} setState={setState}/>
           <Footer state={state} setState={setState} />
         </>
 

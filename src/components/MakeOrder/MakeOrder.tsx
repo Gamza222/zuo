@@ -11,15 +11,11 @@ interface MakeOrderProps {
 const MakeOrder: FC<MakeOrderProps> = ({setState}) => {
   return (
     <section className='makeorder-container container'>
-        <div className='makeorder-container__card-img'>
-            <img src={card} alt="card" />
-        </div>
         <div className='makeorder-container__content'>
-            <p className="makeorder-container__content__text">ProtonPay - не “Необанк”,  Мы - провайдер между пользователем и миром платежей. Работаем на основе Сингапурского банка</p>
+            <p className="makeorder-container__content__text">{`Кстати, 做 (Zuò) на китайском означает “делать”`}</p>
             <div className="makeorder-container__content__interaction">
-                <button onClick={() => setState("order")} className="button">Заказать карту</button>
                 <div className="makeorder-container__content__interaction__img">
-                    <p>Стоимость - 7000<br/> рублей до 4 октября</p>
+                    <button onClick={() => setState("order")}>Узнать стоимость или запросить список товаров</button>
                 </div>
             </div>
         </div>

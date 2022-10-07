@@ -4,20 +4,93 @@
     overflow: hidden;
     margin-top: 80px;
 
-    @media screen and (min-width: 850px) {
-        margin-top: 100px;
-    }
-    @media screen and (min-width: 1250px) {
-        margin-top: 150px;
+    @media screen and (max-width: 320px) {
+        margin-top: 40px;
     }
 
-    &__text {
-        font-size: var(--size-primary);
+    @media screen and (min-width: 1050px) {
+        gap: 30px;
+        align-items: flex-start;
+}
+    
+    @media screen and (min-width: 1010px) {
+        margin-top: 80px;
+        gap: 30px;
+        align-items: flex-start;
+    }
+    
+    &__buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
 
-        @media screen and (min-width: 1250px) {
-            width: 50%;
+        @media screen and (min-width: 1050px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            flex-direction: row;
+                gap: 50px;
+                align-items: center;
+        }
+
+        > button {
+            text-decoration: underline;
+            background-color: transparent;
+            color: var(--color-white);
+            font-size: var(--size-primary-variant);
+            cursor: pointer;
+            text-align: start;
+
+            @media screen and (min-width: 1010px) {
+                text-align: center;
+            }
+
+            &:hover {
+                color: var(--color-shadowed);
+            }
+        }
+
+        &__text {
+            font-size: var(--size-primary);
         }
     }
+
+    &__countries {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            margin-top: 40px;
+            align-items: flex-start;
+
+            @media screen and (min-width: 1050px) {
+                display: flex;
+                margin-top: 0;
+                flex-direction: row;
+                gap: 50px;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+    
+            > h3 {
+                font-family: var(--font-subtitle);
+                font-size: var(--size-primary);
+                @media screen and (min-width: 750px) {
+                    text-align: center;
+                }
+            }
+
+            > p {
+                background-color: transparent;
+                color: var(--color-white);
+                font-family: var(--font);
+                font-size: var(--size-primary-variant);
+                text-align: start;
+                @media screen and (min-width: 750px) {
+                    text-align: center;
+                }
+            }
+    }
+
 
     &__slides {
         display: flex;

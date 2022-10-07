@@ -8,7 +8,6 @@ import Rules from './components/Rules/Rules';
 import './index.scss';
 import {text} from './rules'
 import splitbee from '@splitbee/web';
-import Login from './components/LogIn/Login';
 
 splitbee.init();
 

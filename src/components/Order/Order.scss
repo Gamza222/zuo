@@ -49,28 +49,6 @@
         }
     }
 
-    &__cost {
-        padding: 35px;
-        padding-right: 20px;
-        background: url("../assets/images/Order/bg.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 13px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 33px;
-
-        @media screen and (min-width: 1210px) {
-            margin-bottom: 65px;
-        }
-
-        > p {
-            width: fit-content;
-        }
-    }
-
     > form {
         display: flex;
         flex-direction: column;

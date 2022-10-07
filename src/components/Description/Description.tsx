@@ -1,8 +1,5 @@
 import React, { FC } from 'react'
 import './Description.scss'
-import slide1 from '../assets/images/Description/slide-1.svg'
-import slide2 from '../assets/images/Description/slide-2.svg'
-import slide3 from '../assets/images/Description/slide-3.svg'
 
 interface DescriptionProps {
   state: string,
@@ -10,7 +7,7 @@ interface DescriptionProps {
 }
 
 
-const Description: FC<DescriptionProps> = ({state, setState}) => {
+const Description: FC<DescriptionProps> = ({setState}) => {
   return (
     <section className='description-container container' >
         <div className="description-container__buttons">

@@ -1,6 +1,4 @@
 import React, { FC } from 'react'
-import card from "../assets/images/makeorder/card.svg";
-import bg from "../assets/images/makeorder/bg.svg";
 import "./MakeOrder.scss"
 
 interface MakeOrderProps {

@@ -1,6 +1,4 @@
 import React, { FC, useState } from 'react'
-import { Interface } from 'readline'
-import arrow from "../assets/images/Rules/arrow.svg"
 import './Order.scss'
 import {BsArrowLeftShort} from "react-icons/bs"
 

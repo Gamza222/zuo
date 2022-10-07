@@ -5,7 +5,7 @@ interface HeaderProps {
   setState: React.Dispatch<React.SetStateAction<string>>
 }
 
-const Header : FC<HeaderProps> = ({setState}) => {
+const Header : FC<HeaderProps> = () => {
   return (
     <header className='header-container container'>
       <div className='header-container__text'>

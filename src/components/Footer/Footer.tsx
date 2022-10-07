@@ -6,7 +6,7 @@ interface FooterProps {
     setState:  React.Dispatch<React.SetStateAction<string>>
 }
 
-const Footer : FC<FooterProps> = ({state, setState}) => {
+const Footer : FC<FooterProps> = () => {
 
   return (
     <section className="footer-container container">

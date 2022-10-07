@@ -12,7 +12,7 @@ interface RulespProps {
   contacts?: { title: string; href: string; }[]
 }
 
-const Rules: FC<RulespProps> = ({setState, elements, text, state, title, contacts}) => {
+const Rules: FC<RulespProps> = ({setState, elements, text,title, contacts}) => {
   return (
     <div className="rules-container container">
         <button className="arrow" onClick={() => setState("")}>

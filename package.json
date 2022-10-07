@@ -1,7 +1,7 @@
 {
   "name": "zuo",
   "version": "0.1.0",
-  "homepage": "https://gamza222.github.io/zuo/",
+  "homepage": "https://zuo.vercel.app",
   "private": true,
   "dependencies": {
     "@splitbee/web": "^0.3.0",

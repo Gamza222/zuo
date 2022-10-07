@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gamza222.github.io/zou/static/css/main.98346f33.css",
-    "main.js": "/gamza222.github.io/zou/static/js/main.e4540281.js",
+    "main.js": "/gamza222.github.io/zou/static/js/main.792a81d5.js",
     "static/media/Rectangle 4.svg": "/gamza222.github.io/zou/static/media/Rectangle 4.5e5dccf5e2a28249041d.svg",
     "static/media/Rectangle 1.svg": "/gamza222.github.io/zou/static/media/Rectangle 1.35a6665da6d20a69bf1d.svg",
     "static/media/Rectangle 3.svg": "/gamza222.github.io/zou/static/media/Rectangle 3.988c27e5775ef728356e.svg",
@@ -15,10 +15,10 @@
     "static/media/NeueMachina-Light.otf": "/gamza222.github.io/zou/static/media/NeueMachina-Light.e1fb3b2574d18010b9ff.otf",
     "index.html": "/gamza222.github.io/zou/index.html",
     "main.98346f33.css.map": "/gamza222.github.io/zou/static/css/main.98346f33.css.map",
-    "main.e4540281.js.map": "/gamza222.github.io/zou/static/js/main.e4540281.js.map"
+    "main.792a81d5.js.map": "/gamza222.github.io/zou/static/js/main.792a81d5.js.map"
   },
   "entrypoints": [
     "static/css/main.98346f33.css",
-    "static/js/main.e4540281.js"
+    "static/js/main.792a81d5.js"
   ]
 }

@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/gamza222.github.io/zou/static/css/main.98346f33.css",
-    "main.js": "/gamza222.github.io/zou/static/js/main.792a81d5.js",
-    "static/media/Rectangle 4.svg": "/gamza222.github.io/zou/static/media/Rectangle 4.5e5dccf5e2a28249041d.svg",
-    "static/media/Rectangle 1.svg": "/gamza222.github.io/zou/static/media/Rectangle 1.35a6665da6d20a69bf1d.svg",
-    "static/media/Rectangle 3.svg": "/gamza222.github.io/zou/static/media/Rectangle 3.988c27e5775ef728356e.svg",
-    "static/media/Rectangle 5.svg": "/gamza222.github.io/zou/static/media/Rectangle 5.6087c1246be89365be96.svg",
-    "static/media/Rectangle 1-2.svg": "/gamza222.github.io/zou/static/media/Rectangle 1-2.e4a1726fd6e4cbf6460b.svg",
-    "static/media/Rectangle 1-3.svg": "/gamza222.github.io/zou/static/media/Rectangle 1-3.e5938bcd370169b7da99.svg",
-    "static/media/bg.svg": "/gamza222.github.io/zou/static/media/bg.2f87b67732bca7e97992.svg",
-    "static/media/PPNeueMachina-InktrapUltrabold.otf": "/gamza222.github.io/zou/static/media/PPNeueMachina-InktrapUltrabold.fb684ef5ee9ec89f251b.otf",
-    "static/media/PPNeueMachina-InktrapRegular.otf": "/gamza222.github.io/zou/static/media/PPNeueMachina-InktrapRegular.01baa3a95952a01856a3.otf",
-    "static/media/PPNeueMachina-InktrapLight.otf": "/gamza222.github.io/zou/static/media/PPNeueMachina-InktrapLight.7598449634f6cc24e7c3.otf",
-    "static/media/NeueMachina-Light.otf": "/gamza222.github.io/zou/static/media/NeueMachina-Light.e1fb3b2574d18010b9ff.otf",
-    "index.html": "/gamza222.github.io/zou/index.html",
-    "main.98346f33.css.map": "/gamza222.github.io/zou/static/css/main.98346f33.css.map",
-    "main.792a81d5.js.map": "/gamza222.github.io/zou/static/js/main.792a81d5.js.map"
+    "main.css": "/zuo/static/css/main.f7f48447.css",
+    "main.js": "/zuo/static/js/main.c0f7157e.js",
+    "static/media/Rectangle 4.svg": "/zuo/static/media/Rectangle 4.5e5dccf5e2a28249041d.svg",
+    "static/media/Rectangle 1.svg": "/zuo/static/media/Rectangle 1.35a6665da6d20a69bf1d.svg",
+    "static/media/Rectangle 3.svg": "/zuo/static/media/Rectangle 3.988c27e5775ef728356e.svg",
+    "static/media/Rectangle 5.svg": "/zuo/static/media/Rectangle 5.6087c1246be89365be96.svg",
+    "static/media/Rectangle 1-2.svg": "/zuo/static/media/Rectangle 1-2.e4a1726fd6e4cbf6460b.svg",
+    "static/media/Rectangle 1-3.svg": "/zuo/static/media/Rectangle 1-3.e5938bcd370169b7da99.svg",
+    "static/media/bg.svg": "/zuo/static/media/bg.2f87b67732bca7e97992.svg",
+    "static/media/PPNeueMachina-InktrapUltrabold.otf": "/zuo/static/media/PPNeueMachina-InktrapUltrabold.fb684ef5ee9ec89f251b.otf",
+    "static/media/PPNeueMachina-InktrapRegular.otf": "/zuo/static/media/PPNeueMachina-InktrapRegular.01baa3a95952a01856a3.otf",
+    "static/media/PPNeueMachina-InktrapLight.otf": "/zuo/static/media/PPNeueMachina-InktrapLight.7598449634f6cc24e7c3.otf",
+    "static/media/NeueMachina-Light.otf": "/zuo/static/media/NeueMachina-Light.e1fb3b2574d18010b9ff.otf",
+    "index.html": "/zuo/index.html",
+    "main.f7f48447.css.map": "/zuo/static/css/main.f7f48447.css.map",
+    "main.c0f7157e.js.map": "/zuo/static/js/main.c0f7157e.js.map"
   },
   "entrypoints": [
-    "static/css/main.98346f33.css",
-    "static/js/main.792a81d5.js"
+    "static/css/main.f7f48447.css",
+    "static/js/main.c0f7157e.js"
   ]
 }

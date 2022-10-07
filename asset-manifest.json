@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/zuo/static/css/main.e35a4569.css",
-    "main.js": "/zuo/static/js/main.a8fca8c0.js",
-    "static/media/Rectangle 1-2.svg": "/zuo/static/media/Rectangle 1-2.e4a1726fd6e4cbf6460b.svg",
-    "static/media/Rectangle 3.png": "/zuo/static/media/Rectangle 3.a69b4b56d0163f30631d.png",
-    "static/media/Rectangle 4.png": "/zuo/static/media/Rectangle 4.23f442f4fe8e4634b2bd.png",
-    "static/media/Rectangle 1.png": "/zuo/static/media/Rectangle 1.4ae1a98fb49bab914aae.png",
-    "static/media/Rectangle 5.png": "/zuo/static/media/Rectangle 5.b482adcd9e398c47eb1c.png",
-    "static/media/Rectangle 1-2.png": "/zuo/static/media/Rectangle 1-2.0735166a0f2dc5f15f18.png",
-    "static/media/PPNeueMachina-InktrapUltrabold.otf": "/zuo/static/media/PPNeueMachina-InktrapUltrabold.fb684ef5ee9ec89f251b.otf",
-    "static/media/PPNeueMachina-InktrapRegular.otf": "/zuo/static/media/PPNeueMachina-InktrapRegular.01baa3a95952a01856a3.otf",
-    "static/media/PPNeueMachina-InktrapLight.otf": "/zuo/static/media/PPNeueMachina-InktrapLight.7598449634f6cc24e7c3.otf",
-    "static/media/NeueMachina-Light.otf": "/zuo/static/media/NeueMachina-Light.e1fb3b2574d18010b9ff.otf",
-    "index.html": "/zuo/index.html",
-    "main.e35a4569.css.map": "/zuo/static/css/main.e35a4569.css.map",
-    "main.a8fca8c0.js.map": "/zuo/static/js/main.a8fca8c0.js.map"
+    "main.css": "/static/css/main.38420c72.css",
+    "main.js": "/static/js/main.5d1fa71e.js",
+    "static/media/Rectangle 1-2.svg": "/static/media/Rectangle 1-2.e4a1726fd6e4cbf6460b.svg",
+    "static/media/Rectangle 3.png": "/static/media/Rectangle 3.a69b4b56d0163f30631d.png",
+    "static/media/Rectangle 4.png": "/static/media/Rectangle 4.23f442f4fe8e4634b2bd.png",
+    "static/media/Rectangle 1.png": "/static/media/Rectangle 1.4ae1a98fb49bab914aae.png",
+    "static/media/Rectangle 5.png": "/static/media/Rectangle 5.b482adcd9e398c47eb1c.png",
+    "static/media/Rectangle 1-2.png": "/static/media/Rectangle 1-2.0735166a0f2dc5f15f18.png",
+    "static/media/PPNeueMachina-InktrapUltrabold.otf": "/static/media/PPNeueMachina-InktrapUltrabold.fb684ef5ee9ec89f251b.otf",
+    "static/media/PPNeueMachina-InktrapRegular.otf": "/static/media/PPNeueMachina-InktrapRegular.01baa3a95952a01856a3.otf",
+    "static/media/PPNeueMachina-InktrapLight.otf": "/static/media/PPNeueMachina-InktrapLight.7598449634f6cc24e7c3.otf",
+    "static/media/NeueMachina-Light.otf": "/static/media/NeueMachina-Light.e1fb3b2574d18010b9ff.otf",
+    "index.html": "/index.html",
+    "main.38420c72.css.map": "/static/css/main.38420c72.css.map",
+    "main.5d1fa71e.js.map": "/static/js/main.5d1fa71e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e35a4569.css",
-    "static/js/main.a8fca8c0.js"
+    "static/css/main.38420c72.css",
+    "static/js/main.5d1fa71e.js"
   ]
 }
